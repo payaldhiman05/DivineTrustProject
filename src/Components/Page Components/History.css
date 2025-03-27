@@ -1,0 +1,56 @@
+.history-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f9f5eb;
+  }
+  
+  .history-content {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .history-content h1 {
+    font-size: 2.5rem;
+    color: #b45f06;
+    margin-bottom: 15px;
+  }
+  
+  .history-content p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .history-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .history-image img {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .history-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

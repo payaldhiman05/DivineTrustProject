@@ -1,0 +1,76 @@
+/* About Section Layout */
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .about-image-container {
+    flex: 1;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .about-content h1, .about-content h2 {
+    color: #8B0000; /* Dark red */
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-content li {
+    font-size: 18px;
+    padding: 10px 0;
+    color: #444;
+  }
+  
+  /* Reverse layout for alternate sections */
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .reverse {
+      flex-direction: column;
+    }
+  
+    .about-image {
+      max-width: 100%;
+    }
+  }
+  

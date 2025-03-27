@@ -1,0 +1,82 @@
+
+.temple-timings {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  
+  .timing-header {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .overlay h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+  
+  .overlay p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+
+  .timing-container, .aarti-section, .festival-timings {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timing-box, .aarti-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .icon {
+    font-size: 28px;
+    color: #b84e2a;
+  }
+  
+ 
+  .festival-timings {
+    background-color: #fdf2e9;
+    border-left: 5px solid #b84e2a;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .festival-timings h2 {
+    color: #b84e2a;
+  }
+  
+
+  .timing-footer {
+    background-color: #b84e2a;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  

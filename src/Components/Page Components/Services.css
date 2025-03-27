@@ -1,0 +1,65 @@
+.services-container {
+    padding: 50px;
+    background: #fdf5e6; /* Soft temple color */
+    text-align: center;
+  }
+  
+  .services-header h1 {
+    font-size: 2.5rem;
+    color: #b76e79; /* Spiritual theme */
+  }
+  
+  .services-header p {
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .services-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .services-text {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .services-text h2 {
+    color: #8b0000;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .services-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services-text li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .services-image {
+    width: 50%;
+  }
+  
+  .services-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .services-footer {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .services-footer p {
+    font-weight: bold;
+  }
+  

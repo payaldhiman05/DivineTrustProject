@@ -1,0 +1,126 @@
+.contact-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  .contact-header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .contact-header h1 {
+    color: #8B0000;
+    font-size: 32px;
+  }
+  
+  .contact-header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .contact-info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-details {
+    flex: 1;
+  }
+  
+  .contact-details h2 {
+    color: #8B0000;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-right:290px
+  }
+  
+  .contact-details p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .contact-image-container {
+    flex: 1;
+  }
+  
+  .contact-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-form-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .contact-form-section h2 {
+    color: #8B0000;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    background-color: #8B0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #a52a2a;
+  }
+  
+  .map-section {
+    text-align: center;
+  }
+  
+  .map-section h2 {
+    color: #8B0000;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  iframe {
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-image {
+      max-width: 100%;
+    }
+  }
+  

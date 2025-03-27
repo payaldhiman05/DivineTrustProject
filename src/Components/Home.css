@@ -1,0 +1,111 @@
+/* General Home Page Styling */
+.home-container {
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Full-Width Slideshow Styling */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Overlay Text */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.overlay h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color:white;
+  
+}
+
+.overlay p {
+  font-size: 22px;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.home-content {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+
+.about-temple, .trust-section, .visit-info, .temple-features {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.about-temple h2,
+.trust-section h2,
+.visit-info h2,
+.temple-features h2 {
+  font-size: 30px;
+  color: #b84e2a;
+}
+
+.about-temple p,
+.trust-section p,
+.visit-info p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+.temple-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.temple-features ul li {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+
+.slick-dots li button:before {
+  font-size: 16px;
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color: gold;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: white;
+}

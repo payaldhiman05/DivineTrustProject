@@ -1,0 +1,21 @@
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #FAF3E0; /* Light beige */
+  color: #5A3E36; /* Dark brown */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* Section Styling */
+section {
+  padding: 50px;
+  text-align: center;
+  background-color: #FFF5E1; /* Light cream */
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

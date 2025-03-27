@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.top-header {
+  text-align: center;
+  background-color: #699111; 
+  color: white;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+
+.middle-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: #FFD700; /* Golden color */
+}
+
+
+.logo {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px; 
+    white-space: nowrap; 
+    color:white;
+    margin-top:10px;
+  }
+  
+
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.navbar {
+  width: 100%;
+  background: linear-gradient(to right, #8b4513, #b45f06);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin:0px 0px 0px 90px;
+  font-size: 24px;
+  padding: -30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-links li {
+  position: relative;
+}
+.donate-btn {
+  background-color: gold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, #8b4513, #b45f06);
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 180px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+.dropdown-menu li {
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.dropdown-menu a {
+  color: white;
+  display: block;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
+
