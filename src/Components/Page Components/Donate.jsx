@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import qrImage from "./photo/QR.jpg"; 
+// import qrImage from "./photo/QR.jpg"; 
 import "./Donate.css";
 
 const Donate = () => {
@@ -28,7 +28,7 @@ const Donate = () => {
       {selectedMethod === "gpay" ? (
         <div className="donation-details">
           <h3>Scan & Pay using GPay</h3>
-          <img src={qrImage} alt="QR Code" className="qr-image" />
+          {/* <img src={qrImage} alt="QR Code" className="" /> */}
           <p>UPI ID: <b>chintpurnitemple@upi</b></p>
         </div>
       ) : (
